@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mening mahallam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yoshlik_mfy">Yoshlik MFYning umumiy bazasi</string>
+    <string name="nuroniylar">Nuroniylar</string>
+    <string name="yolg_iz_yashaydigan">Yolg\'iz yashaydigan qariyalar</string>
+    <string name="sahovat_va_muruvvat_uylarida_uylarida_yashaydigan_qariyalar">Sahovat va muruvvat uylarida uylarida yashaydigan qariyalar</string>
+    <string name="kam_taminlangan_oilada_yashovchi_qariyalar">Kam taminlangan oilada yashovchi qariyalar</string>
+    <string name="og_ir_tashxisli_kasalligi_bor_qariyalar">Og\'ir tashxisli kasalligi bor qariyalar</string>
+    <string name="uzbekiston_qahramoni">Uzbekiston qahramoni</string>
+    <string name="davlat_mukofoti_bor_qariyalar">Davlat mukofoti bor qariyalar</string>
+    <string name="kam_taminlangan_insonlar">Kam taminlangan insonlar</string>
+    <string name="ro_yxatga_olish">Ro\'yxatga olish</string>
+    <string name="xotin_qizlar_faoli">Xotin- qizlar faoli</string>
+</resources>

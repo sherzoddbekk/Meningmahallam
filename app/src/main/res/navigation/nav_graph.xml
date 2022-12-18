@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.meningmahallam.fragmnet.splashfragmnet.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.meningmahallam.fragmnet.homeFragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_filloutFragment"
+            app:destination="@id/filloutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filloutFragment"
+        android:name="com.example.meningmahallam.fragmnet.loginFragmnet.LoginFragment"
+        android:label="FilloutFragment" >
+        <action
+            android:id="@+id/action_filloutFragment_to_selectFragment"
+            app:destination="@id/selectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectFragment"
+        android:name="com.example.meningmahallam.fragmnet.selectFragment.SelectFragment"
+        android:label="SelectFragment" />
+</navigation>
